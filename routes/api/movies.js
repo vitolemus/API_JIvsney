@@ -2,9 +2,10 @@ const router = require('express').Router()
 
 const {Movie} = require('../../db')
 
-router.get('/', async (req, res)=>{
+router.get('/', async (req, res)=>{    
     const movies = await Movie.findAll()
     res.json(movies)
+    console.log("User: " + req.authId) // Usuario que accedio a las movies
 
 })
 

@@ -12,9 +12,10 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
 
-
 app.use('/api', apiRouter)
 
+
+//Aranque del servidor en puerto=PORT
 app.listen(PORT, ()=>{
     console.log("Servidor Working")
 
