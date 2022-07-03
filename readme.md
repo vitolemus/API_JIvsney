@@ -15,7 +15,7 @@ Acceso a las peliculas luego de realizar login:
 http://localhost:3000/api/movies
 
 
-Es posible la Creación, Edición y Eliminación de Películas.
+Es posible la Creación, Edición y Eliminación de Películas (CRUD).
 
 
 
